@@ -1,0 +1,16 @@
+{
+  "name": "khanamo",
+  "version": "1.0.0",
+  "description": "Basic Algorithms in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "mypt.two",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.5"
+  }
+}
