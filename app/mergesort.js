@@ -24,7 +24,7 @@ class MergeSort{
             return arr;
         }
         
-        let middleIndex = 1/*Math.floor((arr.length)/2)*/;
+        let middleIndex = Math.floor((arr.length)/2);
 
         let leftArr = arr.slice(0, middleIndex);
         let rightArr = arr.slice(middleIndex);
